@@ -72,6 +72,11 @@ int main() {
 
     switch (taskChoice) {
         case 1:
+            if (n != 10) {
+                std::cerr << "Для задания 1 размер массива должен быть равен 10." << std::endl;
+                delete[] arr;
+                return 1;
+            }
             task1(arr, n);
             break;
         case 2:
