@@ -3,7 +3,7 @@
 #include "/Users/nikzan/CLionProjects/lab7/include/fill_array.h"
 #include "/Users/nikzan/CLionProjects/lab7/include/tasks.h"
 
-int countNumbersInFile(const std::string& filename) {
+int count_numbers_in_file(const std::string& filename) {
     std::ifstream inputFile(filename);
     if (!inputFile) {
         std::cerr << "Не удалось открыть файл." << std::endl;
@@ -20,18 +20,18 @@ int countNumbersInFile(const std::string& filename) {
 
 int main() {
     int n = 0;
-    int fillChoice;
+    int fill_choice;
     std::cout << "==================================" << std::endl;
     std::cout << "Выберите метод заполнения массива:\n1. Рандом\n2. С консоли\n3. Из файла\n";
     std::cout << "==================================" << std::endl;
-    std::cin >> fillChoice;
+    std::cin >> fill_choice;
 
-    if (fillChoice == 1 || fillChoice == 2) {
+    if (fill_choice == 1 || fill_choice == 2) {
         std::cout << "==================================" << std::endl;
         std::cout << "Введите размер массива: ";
         std::cin >> n;
-    } else if (fillChoice == 3) {
-        n = countNumbersInFile("/Users/nikzan/CLionProjects/lab7/input.txt");
+    } else if (fill_choice == 3) {
+        n = count_numbers_in_file("/Users/nikzan/CLionProjects/lab7/input.txt");
         if (n <= 0) {
             std::cerr << "Ошибка при определении размера массива из файла." << std::endl;
             return 1;
@@ -43,7 +43,7 @@ int main() {
 
     int* arr = new int[n];
 
-    switch (fillChoice) {
+    switch (fill_choice) {
         case 1:
             fill_array_random(arr, n);
             std::cout << "Массив: ";
@@ -64,13 +64,13 @@ int main() {
             return 1;
     }
 
-    int taskChoice;
+    int task_choice;
     std::cout << "==================================" << std::endl;
     std::cout << "Выберите задание (1 - 4): ";
-    std::cin >> taskChoice;
+    std::cin >> task_choice;
     std::cout << "==================================" << std::endl;
 
-    switch (taskChoice) {
+    switch (task_choice) {
         case 1:
             if (n != 10) {
                 std::cerr << "Для задания 1 размер массива должен быть равен 10." << std::endl;
