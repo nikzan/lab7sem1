@@ -85,6 +85,30 @@ build CMakeFiles/lab7.dir/src/fill_array.cpp.o: CXX_COMPILER__lab7_unscanned_Deb
   OBJECT_DIR = CMakeFiles/lab7.dir
   OBJECT_FILE_DIR = CMakeFiles/lab7.dir/src
 
+build CMakeFiles/lab7.dir/src/task5.cpp.o: CXX_COMPILER__lab7_unscanned_Debug /Users/nikzan/CLionProjects/lab7/src/task5.cpp || cmake_object_order_depends_target_lab7
+  DEP_FILE = CMakeFiles/lab7.dir/src/task5.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/lab7.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab7.dir/src
+
+build CMakeFiles/lab7.dir/src/task6.cpp.o: CXX_COMPILER__lab7_unscanned_Debug /Users/nikzan/CLionProjects/lab7/src/task6.cpp || cmake_object_order_depends_target_lab7
+  DEP_FILE = CMakeFiles/lab7.dir/src/task6.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/lab7.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab7.dir/src
+
+build CMakeFiles/lab7.dir/src/task7.cpp.o: CXX_COMPILER__lab7_unscanned_Debug /Users/nikzan/CLionProjects/lab7/src/task7.cpp || cmake_object_order_depends_target_lab7
+  DEP_FILE = CMakeFiles/lab7.dir/src/task7.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/lab7.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab7.dir/src
+
+build CMakeFiles/lab7.dir/src/task8.cpp.o: CXX_COMPILER__lab7_unscanned_Debug /Users/nikzan/CLionProjects/lab7/src/task8.cpp || cmake_object_order_depends_target_lab7
+  DEP_FILE = CMakeFiles/lab7.dir/src/task8.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/lab7.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab7.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab7
@@ -93,7 +117,7 @@ build CMakeFiles/lab7.dir/src/fill_array.cpp.o: CXX_COMPILER__lab7_unscanned_Deb
 #############################################
 # Link the executable lab7
 
-build lab7: CXX_EXECUTABLE_LINKER__lab7_Debug CMakeFiles/lab7.dir/src/main.cpp.o CMakeFiles/lab7.dir/src/task1.cpp.o CMakeFiles/lab7.dir/src/task2.cpp.o CMakeFiles/lab7.dir/src/task3.cpp.o CMakeFiles/lab7.dir/src/task4.cpp.o CMakeFiles/lab7.dir/src/fill_array.cpp.o
+build lab7: CXX_EXECUTABLE_LINKER__lab7_Debug CMakeFiles/lab7.dir/src/main.cpp.o CMakeFiles/lab7.dir/src/task1.cpp.o CMakeFiles/lab7.dir/src/task2.cpp.o CMakeFiles/lab7.dir/src/task3.cpp.o CMakeFiles/lab7.dir/src/task4.cpp.o CMakeFiles/lab7.dir/src/fill_array.cpp.o CMakeFiles/lab7.dir/src/task5.cpp.o CMakeFiles/lab7.dir/src/task6.cpp.o CMakeFiles/lab7.dir/src/task7.cpp.o CMakeFiles/lab7.dir/src/task8.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/lab7.dir
   POST_BUILD = :

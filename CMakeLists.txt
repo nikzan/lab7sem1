@@ -10,4 +10,8 @@ add_executable(lab7 src/main.cpp
         src/task4.cpp
         include/fill_array.h
         src/fill_array.cpp
-        include/tasks.h)
+        include/tasks.h
+        src/task5.cpp
+        src/task6.cpp
+        src/task7.cpp
+        src/task8.cpp)
